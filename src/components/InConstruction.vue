@@ -2,7 +2,7 @@
     <div class="inConstruction">
         <h1>Marius Ballot</h1>
         <div class="line"></div>
-        <h3>Engineering student by day, weird pixel maker by night</h3>
+        <h3>Engineering student by day, weird ass xp maker by night</h3>
         <p>Minor modifications and fixes in progress</p>
     </div>
 </template>
