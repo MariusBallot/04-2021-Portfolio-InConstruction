@@ -4,6 +4,12 @@
         <div class="line"></div>
         <h3>Engineering student by day, weird ass crea-dev by night</h3>
         <p>Minor modifications and fixes in progress</p>
+        <div class="bottom">
+            <p>
+                In the mean time, you can play with those absolutly usefull
+                particles
+            </p>
+        </div>
     </div>
 </template>
 
@@ -54,6 +60,12 @@ export default {
         font-size: 4em;
     }
 
+    @media (max-width: 500px) {
+        h1 {
+            font-size: 3em;
+        }
+    }
+
     .line {
         height: 2px;
         width: 300px;
@@ -62,8 +74,24 @@ export default {
         margin-bottom: 20px;
     }
 
+    h3 {
+        text-align: center;
+    }
+
     p {
         margin-top: 5px;
+        text-align: center;
+    }
+
+    .bottom {
+        width: 100%;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+
+        p {
+            text-align: center;
+        }
     }
 }
 </style>
