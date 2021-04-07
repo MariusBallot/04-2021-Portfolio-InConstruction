@@ -17,13 +17,7 @@ export default {
 </script>
 
 <style lang="stylus">
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&display=swap');
-
-@font-face {
-    font-family: Butler;
-    font-style: bold;
-    src: url('assets/fonts/Butler-Bold.woff');
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 
 #app {
     width: 100vw;
@@ -35,6 +29,6 @@ export default {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 </style>

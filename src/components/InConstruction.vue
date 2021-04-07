@@ -55,8 +55,7 @@ export default {
     pointer-events: none;
 
     h1 {
-        font-family: 'Bulter' !important;
-        weight: bold;
+        weight: 600;
         font-size: 4em;
     }
 
